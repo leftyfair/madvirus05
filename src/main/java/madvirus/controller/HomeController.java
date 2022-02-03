@@ -14,6 +14,6 @@ public class HomeController {
 	@GetMapping("/member_temp/edit")
 	public String memberPage() {
 		return "member/edit";
-		
 	}
+	
 }

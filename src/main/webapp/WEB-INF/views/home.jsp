@@ -21,5 +21,6 @@ hell world<br>
 <c:if test="${not empty authInfo}">
 	<a href="${contextPath }/logout">로그아웃</a><br>
 </c:if>
+<a href="${contextPath}/memberList">회원목록</a>
 </body>
 </html>
